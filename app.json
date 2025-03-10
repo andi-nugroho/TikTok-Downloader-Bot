@@ -23,8 +23,4 @@
     "API_HASH": {
       "description": "Your APP HASH, get this from https://my.telegram.org",
      "value": ""
-    },
-    "CHANNEL_URL": {
-      "description": "URL of your Telegram channel link.",
-      "value": ""
 
