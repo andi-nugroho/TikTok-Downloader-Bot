@@ -1,16 +1,4 @@
-
-    except:
-        pass
-    with requests.get(r, timeout=(50, 10000), stream=True) as r:
-        r.raise_for_status()
-        with open(f'./{directory}/{filename}', 'wb') as f:
-            chunk_size = 1048576
-            dl = 0
-            show = 1
-            for chunk in r.iter_content(chunk_size=chunk_size):
-                f.write(chunk)
-                dl = dl + chunk_size
-                percent = round(dl * 100 / size)
+ze)
                 if percent > 100:
                     percent = 100
                 if show == 1:
