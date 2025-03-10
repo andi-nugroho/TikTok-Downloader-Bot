@@ -1,11 +1,4 @@
-
-
-@app.on_message((filters.regex("http://")|filters.regex("https://")) & (filters.regex('tiktok')|filters.regex('douyin')))
-def tiktok_dl(client, message):
-    a = app.send_message(chat_id=message.chat.id,
-                         text='__Downloading File to the Server__',
-                         parse_mode='md')
-    link = re.findall(r'\bhttps?://.*[(tiktok|douyin)]\S+', message.text)[0]
+ouyin)]\S+', message.text)[0]
     link = link.split("?")[0]
 
 
