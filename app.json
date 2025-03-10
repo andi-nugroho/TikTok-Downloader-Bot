@@ -19,8 +19,5 @@
     "API_KEY": {
       "description": "Your APP API KEY, get this from https://my.telegram.org",
       "value": ""
-    },
-    "API_HASH": {
-      "description": "Your APP HASH, get this from https://my.telegram.org",
-     "value": ""
+
 
