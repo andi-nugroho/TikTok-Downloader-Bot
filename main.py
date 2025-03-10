@@ -1,8 +1,4 @@
 
-    
-    ### Get your Free TikTok API from https://rapidapi.com/TerminalWarlord/api/tiktok-info/
-    #Using the default one can stop working any moment 
-    
     api = f"https://tiktok-info.p.rapidapi.com/dl/"
     r = requests.get(api, params=params, headers=headers).json()['videoLinks']['download']
     directory = str(round(time.time()))
