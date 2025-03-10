@@ -1,7 +1,4 @@
 
-        try:
-            shutil.rmtree(directory)
-        except:
             pass
 
 
