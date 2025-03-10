@@ -1,11 +1,1 @@
 version: "3.0"
-services:
-  worker:
-    build: .
-    environment:
-      - API_HASH=${API_HASH}
-      - API_KEY=${API_KEY}
-      - BOT_TOKEN=${BOT_TOKEN}
-      - WORKERS=${WORKERS}
-      - CHANNEL_URL=${CHANNEL_URL}
-      - BOT_URL=${BOT_URL}
