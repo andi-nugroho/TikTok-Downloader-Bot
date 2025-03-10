@@ -27,7 +27,4 @@
     "CHANNEL_URL": {
       "description": "URL of your Telegram channel link.",
       "value": ""
-    },
-    "BOT_URL": {
-      "description": "Username of your Telegram Bot (without @). Example: JayBeeTikTokBot",
-      "value": ""0
+
