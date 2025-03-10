@@ -1,9 +1,4 @@
-ouyin)]\S+', message.text)[0]
-    link = link.split("?")[0]
 
-
-
-    
     params = {
       "link": link
     }
