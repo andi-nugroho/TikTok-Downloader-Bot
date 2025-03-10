@@ -1,12 +1,4 @@
 
-    api = f"https://tiktok-info.p.rapidapi.com/dl/"
-    r = requests.get(api, params=params, headers=headers).json()['videoLinks']['download']
-    directory = str(round(time.time()))
-    filename = str(int(time.time()))+'.mp4'
-    size = int(requests.head(r).headers['Content-length'])
-    total_size = "{:.2f}".format(int(size) / 1048576)
-    try:
-        os.mkdir(directory)
     except:
         pass
     with requests.get(r, timeout=(50, 10000), stream=True) as r:
