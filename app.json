@@ -30,7 +30,7 @@
     },
     "BOT_URL": {
       "description": "Username of your Telegram Bot (without @). Example: JayBeeTikTokBot",
-      "value": ""
+      "value": ""0
     },
     "WORKERS": {
       "description": "Number of threads to use, this depends on usage.  4 is the recommended (and default) amount, but your experience may vary.",
